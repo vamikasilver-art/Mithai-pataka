@@ -1,0 +1,9 @@
+{
+  "name": "mithai-pataka",
+  "version": "1.0.0",
+  "description": "Diwali party voting: dress as a mithai, vote on costumes and pataka personalities.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" },
+  "license": "MIT"
+}
