@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mithai-pataka
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: HOST_KEY
+        sync: false
+        
